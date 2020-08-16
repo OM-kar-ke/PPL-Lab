@@ -1,0 +1,5 @@
+1. Yes.
+Maybe because of c is not initialised here.
+
+2.In bb 5 whree PHI statement is present.
+syntax - name of variable(bb in which it is defined).

@@ -1,0 +1,4 @@
+1. If statements are translated into gimple statements by using goto jumps.
+Unconditional goto has only one branch but conditional goto have two braches for a true and false scenario.
+
+2. It is easy to see control flow in this representation but the no. of lines are more.

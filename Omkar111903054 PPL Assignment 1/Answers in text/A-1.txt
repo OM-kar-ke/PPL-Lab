@@ -1,0 +1,14 @@
+1. In Gimple each variable is declard on different line. Multiple variables get different lines for declarations.
+Global variable Z is directly used without declaration.
+
+2.Complex experssions are breaked down into simpler expressions step by step in the order of mathematical conventions. 
+Like [c = a * b + 25] is resolved , first multiplication is carried out and its value is stored in a temporary variable. 
+Then 25 is added in that value and the result is stored in variable c.
+	When a complex equation are to be solved then solve them step by step by breaking them into a single equation and the 
+result of such simpler equation should be stored in Temporary variables.
+
+3.Dobles or Floats are represented in the exponential form of 10. Here, 34.5 is represented as 3.45e+1 i.e. 3.45 * (10^1).
+when a float/double is assigned to an integer only its integral part is get assigned.
+
+4.Because in [z = z + 1]  this assignment there is an equation which has to be solved.
+But in [q=z] we can assign it directly.

@@ -1,0 +1,6 @@
+1. <bb 3> and <bb 4> are the basic blocks that correspond to the while loop.
+In If-else goto are conditional but in while loop there are some goto which are unconditional.
+
+2. <bb 5>, <bb 6>, <bb 7>, <bb 8>, <bb 9>, <bb 10> are the basic blocks of nested for loop.
+In this code we don't considered the counter for while loop because in while loop the condition 
+is worked as a counter, but this is not the case for for loop.

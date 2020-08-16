@@ -1,0 +1,6 @@
+1. Arrays are delcalred in a unique single statements with their size.
+initialization for each element of aaray is done on seperate line.
+
+2.Probably for memory allocations and simlifying it.
+
+3.- 
